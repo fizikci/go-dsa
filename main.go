@@ -16,5 +16,7 @@ func main() {
 
 	//fmt.Println(arrays.Uncompress("3n12e2z"))
 
-	fmt.Println(arrays.Compress("nnneeeeeeeeeeeez"))
+	//fmt.Println(arrays.Compress("nnneeeeeeeeeeeez"))
+
+	fmt.Println(arrays.Intersect([]int{1, 2, 3, 4, 5}, []int{4, 5, 6, 7, 8}))
 }
