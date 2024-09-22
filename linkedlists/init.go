@@ -1,8 +1,21 @@
 package linkedlists
 
+import "strconv"
+
 type Node struct {
 	Val  int
 	Next *Node
+}
+
+func (head *Node) String() (res string) {
+	for curr := head; curr != nil; curr = curr.Next {
+		res += strconv.Itoa(curr.Val)
+		if curr.Next != nil {
+			res += " -> "
+		}
+	}
+
+	return res
 }
 
 var (
