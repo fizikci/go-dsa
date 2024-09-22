@@ -38,5 +38,7 @@ func main() {
 
 	//fmt.Println(linkedlists.HasValue(linkedlists.IntLinkedList, 4))
 
-	fmt.Println(linkedlists.Reverse(linkedlists.IntLinkedList))
+	//fmt.Println(linkedlists.Reverse(linkedlists.IntLinkedList))
+
+	fmt.Println(linkedlists.Zip(linkedlists.IntLinkedList, linkedlists.IntLinkedList2))
 }
