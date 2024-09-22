@@ -40,5 +40,7 @@ func main() {
 
 	//fmt.Println(linkedlists.Reverse(linkedlists.IntLinkedList))
 
-	fmt.Println(linkedlists.Zip(linkedlists.IntLinkedList, linkedlists.IntLinkedList2))
+	//fmt.Println(linkedlists.Zip(linkedlists.IntLinkedList, linkedlists.IntLinkedList2))
+
+	fmt.Println(linkedlists.MergeSorted(linkedlists.IntLinkedList, linkedlists.IntLinkedList2))
 }
