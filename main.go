@@ -44,5 +44,7 @@ func main() {
 
 	//fmt.Println(linkedlists.MergeSorted(linkedlists.IntLinkedList, linkedlists.IntLinkedList2))
 
-	fmt.Println(linkedlists.LongestStreak(linkedlists.IntLinkedList))
+	//fmt.Println(linkedlists.LongestStreak(linkedlists.IntLinkedList))
+
+	fmt.Println(linkedlists.RemoveNode(linkedlists.IntLinkedList, 40))
 }
