@@ -32,6 +32,8 @@ func main() {
 
 	//fmt.Println(recursion.Fibonacci(7))
 
-	fmt.Println(linkedlists.Values(linkedlists.IntLinkedList))
+	//fmt.Println(linkedlists.Values(linkedlists.IntLinkedList))
+
+	fmt.Println(linkedlists.SumList(linkedlists.IntLinkedList))
 
 }
