@@ -27,5 +27,8 @@ func main() {
 
 	//fmt.Println(recursion.ReverseString("hello"))
 
-	fmt.Println(recursion.IsPalindrome("abcdefedcba"))
+	//fmt.Println(recursion.IsPalindrome("abcdefedcba"))
+
+	fmt.Println(recursion.Fibonacci(7))
+
 }
