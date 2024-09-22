@@ -4,7 +4,8 @@ import (
 	"fmt"
 
 	_ "bulentkeskin.com/dsa/arrays"
-	"bulentkeskin.com/dsa/recursion"
+	"bulentkeskin.com/dsa/linkedlists"
+	_ "bulentkeskin.com/dsa/recursion"
 )
 
 func main() {
@@ -29,6 +30,8 @@ func main() {
 
 	//fmt.Println(recursion.IsPalindrome("abcdefedcba"))
 
-	fmt.Println(recursion.Fibonacci(7))
+	//fmt.Println(recursion.Fibonacci(7))
+
+	fmt.Println(linkedlists.Values(linkedlists.IntLinkedList))
 
 }
