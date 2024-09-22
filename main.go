@@ -48,5 +48,7 @@ func main() {
 
 	//fmt.Println(linkedlists.RemoveNode(linkedlists.IntLinkedList, 40))
 
-	fmt.Println(linkedlists.InsertNode(linkedlists.IntLinkedList, 25, 2))
+	//fmt.Println(linkedlists.InsertNode(linkedlists.IntLinkedList, 25, 2))
+
+	fmt.Println(linkedlists.Create([]int{1, 2, 3, 4, 5}))
 }
