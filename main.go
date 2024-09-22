@@ -34,6 +34,8 @@ func main() {
 
 	//fmt.Println(linkedlists.Values(linkedlists.IntLinkedList))
 
-	fmt.Println(linkedlists.SumList(linkedlists.IntLinkedList))
+	//fmt.Println(linkedlists.SumList(linkedlists.IntLinkedList))
+
+	fmt.Println(linkedlists.HasValue(linkedlists.IntLinkedList, 4))
 
 }
