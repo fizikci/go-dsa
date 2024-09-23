@@ -7,7 +7,7 @@ import (
 )
 
 /*
-Write a function, Uncompress, that takes in a string as an argument. The input string will be formatted into
+Write a function that takes in a string as an argument. The input string will be formatted into
 multiple groups according to the following rules:
 */
 

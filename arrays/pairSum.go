@@ -1,7 +1,7 @@
 package arrays
 
 /*
-Write a function, PairSum, that takes in an array of numbers and a target number. The function should return
+Write a function that takes in an array of numbers and a target number. The function should return
 a pair of indices whose elements sum to the given target. The indices should be ordered in ascending order.
 */
 
