@@ -63,5 +63,7 @@ func main() {
 
 	//fmt.Println(binarytrees.MaxValue(binarytrees.IntBinaryTree))
 
-	fmt.Println(binarytrees.MaxRootToLeafPathSum(binarytrees.ArrayToBinaryTree([]int{5, 11, 54, 20, 15, -1, -1, -1, -1, 1, 3})))
+	//fmt.Println(binarytrees.MaxRootToLeafPathSum(binarytrees.ArrayToBinaryTree([]int{5, 11, 54, 20, 15, -1, -1, -1, -1, 1, 3})))
+
+	fmt.Println(binarytrees.FindPath(binarytrees.IntBinaryTree, 7))
 }
