@@ -57,5 +57,7 @@ func main() {
 
 	//fmt.Println(binarytrees.BreadthFirst(binarytrees.IntBinaryTree))
 
-	fmt.Println(binarytrees.TreeSum(binarytrees.IntBinaryTree))
+	//fmt.Println(binarytrees.TreeSum(binarytrees.IntBinaryTree))
+
+	fmt.Println(binarytrees.TreeContains(binarytrees.IntBinaryTree, 5))
 }
