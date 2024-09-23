@@ -53,5 +53,7 @@ func main() {
 
 	//fmt.Println(linkedlists.Create([]int{1, 2, 3, 4, 5}))
 
-	fmt.Println(binarytrees.DepthFirst(binarytrees.IntBinaryTree))
+	//fmt.Println(binarytrees.DepthFirst(binarytrees.IntBinaryTree))
+
+	fmt.Println(binarytrees.BreadthFirst(binarytrees.IntBinaryTree))
 }
