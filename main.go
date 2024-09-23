@@ -4,7 +4,8 @@ import (
 	"fmt"
 
 	_ "bulentkeskin.com/dsa/arrays"
-	"bulentkeskin.com/dsa/linkedlists"
+	"bulentkeskin.com/dsa/binarytrees"
+	_ "bulentkeskin.com/dsa/linkedlists"
 	_ "bulentkeskin.com/dsa/recursion"
 )
 
@@ -50,5 +51,7 @@ func main() {
 
 	//fmt.Println(linkedlists.InsertNode(linkedlists.IntLinkedList, 25, 2))
 
-	fmt.Println(linkedlists.Create([]int{1, 2, 3, 4, 5}))
+	//fmt.Println(linkedlists.Create([]int{1, 2, 3, 4, 5}))
+
+	fmt.Println(binarytrees.DepthFirst(binarytrees.IntBinaryTree))
 }
