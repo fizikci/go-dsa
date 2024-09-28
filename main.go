@@ -69,5 +69,7 @@ func main() {
 
 	//fmt.Println(binarytrees.TreeValueCount(binarytrees.ArrayToBinaryTree([]int{1, 1, 1, 2}), 1))
 
-	fmt.Println(binarytrees.HowHigh(binarytrees.IntBinaryTree))
+	//fmt.Println(binarytrees.HowHigh(binarytrees.IntBinaryTree))
+
+	fmt.Println(binarytrees.BottomRightValue(binarytrees.IntBinaryTree))
 }
