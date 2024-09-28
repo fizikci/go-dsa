@@ -78,14 +78,6 @@ func buildTreeString(node *TreeNode) ([]string, int, int, int) {
 	return mergedLines, leftWidth + nodeWidth/2, leftWidth + nodeWidth + rightWidth, len(mergedLines)
 }
 
-// Helper function to get the maximum of two integers.
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func (root *TreeNode) String() (res string) {
 	return treeToString(root)
 }
