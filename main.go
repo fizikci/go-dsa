@@ -82,5 +82,7 @@ func main() {
 
 	//fmt.Println(binarytrees.LeafList(binarytrees.IntBinaryTree))
 
-	fmt.Println(graphs.HasPath(graphs.SampleDAG, 'f', 'k'))
+	//fmt.Println(graphs.HasPath(graphs.SampleDAG, 'f', 'k'))
+
+	fmt.Println(graphs.UndirectedPath(graphs.SampleGraph, 'j', 'm'))
 }

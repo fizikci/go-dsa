@@ -44,4 +44,11 @@ func init() {
 		{'i', 'k'},
 		{'j', 'i'},
 	}, true)
+
+	SampleGraph = BuildGraph([][2]rune{{'i', 'j'},
+		{'k', 'i'},
+		{'m', 'k'},
+		{'k', 'l'},
+		{'o', 'n'},
+	}, false)
 }
