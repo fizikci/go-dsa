@@ -12,14 +12,6 @@ var (
 func BuildGraph[T comparable](edges [][2]T, directed bool) Graph[T] {
 	var graph Graph[T] = Graph[T]{}
 	for _, e := range edges {
-
-		if _, exists := graph[e[0]]; !exists {
-			graph[e[0]] = []T{}
-		}
-		if _, exists := graph[e[1]]; !exists && !directed {
-			graph[e[1]] = []T{}
-		}
-
 		graph[e[0]] = append(graph[e[0]], e[1])
 		if !directed {
 			graph[e[1]] = append(graph[e[1]], e[0])
