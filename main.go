@@ -77,5 +77,7 @@ func main() {
 
 	//fmt.Println(binarytrees.TreeLevels(binarytrees.IntBinaryTree))
 
-	fmt.Println(binarytrees.LevelAverages(binarytrees.IntBinaryTree))
+	//fmt.Println(binarytrees.LevelAverages(binarytrees.IntBinaryTree))
+
+	fmt.Println(binarytrees.LeafList(binarytrees.IntBinaryTree))
 }
