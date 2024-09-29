@@ -4,7 +4,8 @@ import (
 	"fmt"
 
 	_ "bulentkeskin.com/dsa/arrays"
-	"bulentkeskin.com/dsa/binarytrees"
+	_ "bulentkeskin.com/dsa/binarytrees"
+	"bulentkeskin.com/dsa/graphs"
 	_ "bulentkeskin.com/dsa/linkedlists"
 	_ "bulentkeskin.com/dsa/recursion"
 )
@@ -79,5 +80,7 @@ func main() {
 
 	//fmt.Println(binarytrees.LevelAverages(binarytrees.IntBinaryTree))
 
-	fmt.Println(binarytrees.LeafList(binarytrees.IntBinaryTree))
+	//fmt.Println(binarytrees.LeafList(binarytrees.IntBinaryTree))
+
+	fmt.Println(graphs.HasPath(graphs.SampleGraph, 'f', 'k'))
 }
