@@ -2,7 +2,7 @@ package graphs
 
 import "bulentkeskin.com/dsa/library"
 
-func HasPath(graph DAG[rune], src rune, dst rune) bool {
+func HasPath(graph Graph[rune], src rune, dst rune) bool {
 	var stack library.Stack[rune]
 	stack.Push(src)
 
