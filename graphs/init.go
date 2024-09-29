@@ -5,8 +5,9 @@ import "fmt"
 type Graph[T comparable] map[T][]T
 
 var (
-	SampleDAG   Graph[rune]
-	SampleGraph Graph[rune]
+	SampleDAG           Graph[rune]
+	SampleGraph         Graph[rune]
+	GraphWithComponents Graph[int]
 )
 
 func BuildGraph[T comparable](edges [][2]T, directed bool) Graph[T] {
@@ -18,8 +19,6 @@ func BuildGraph[T comparable](edges [][2]T, directed bool) Graph[T] {
 		}
 	}
 
-	fmt.Println(graph)
-
 	return graph
 }
 
@@ -28,7 +27,7 @@ func (g Graph[T]) String() string {
 
 	for key := range g {
 		for _, e := range g[key] {
-			res += fmt.Sprintf("%c => %c\n", key, e)
+			res += fmt.Sprintf("%v => %v\n", key, e)
 		}
 	}
 
@@ -36,7 +35,7 @@ func (g Graph[T]) String() string {
 }
 
 func init() {
-	SampleDAG = BuildGraph[rune]([][2]rune{
+	SampleDAG = BuildGraph([][2]rune{
 		{'f', 'g'},
 		{'f', 'i'},
 		{'g', 'h'},
@@ -45,10 +44,21 @@ func init() {
 		{'j', 'i'},
 	}, true)
 
-	SampleGraph = BuildGraph([][2]rune{{'i', 'j'},
+	SampleGraph = BuildGraph([][2]rune{
+		{'i', 'j'},
 		{'k', 'i'},
 		{'m', 'k'},
 		{'k', 'l'},
 		{'o', 'n'},
+	}, false)
+
+	GraphWithComponents = BuildGraph([][2]int{
+		{0, 1},
+		{0, 5},
+		{0, 8},
+		{5, 8},
+		{2, 3},
+		{2, 4},
+		{3, 4},
 	}, false)
 }

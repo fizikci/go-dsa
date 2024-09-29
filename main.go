@@ -84,5 +84,7 @@ func main() {
 
 	//fmt.Println(graphs.HasPath(graphs.SampleDAG, 'f', 'k'))
 
-	fmt.Println(graphs.UndirectedPath(graphs.SampleGraph, 'j', 'm'))
+	//fmt.Println(graphs.UndirectedPath(graphs.SampleGraph, 'j', 'm'))
+
+	fmt.Println(graphs.ConnectedComponentCount(graphs.GraphWithComponents))
 }
